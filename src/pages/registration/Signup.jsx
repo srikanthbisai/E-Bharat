@@ -3,7 +3,6 @@ import myContext from '../../context/data/myContext';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { auth, fireDB } from '../../firebase/FireBaseConfig';
 import { Timestamp, addDoc, collection } from 'firebase/firestore';
 import Loader from '../../components/loader/Loader';
 
